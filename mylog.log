@@ -1,0 +1,51 @@
+    1  cd K:
+    2  dir
+    3  cd SP/
+    4  DIR
+    5  mkdir Lab4
+    6  cd Lab4/
+    7  mkdir git_hub
+    8  cd git_hub/
+    9  git init
+   10  dir
+   11  touch ShortCat
+   12  dir
+   13  git add
+   14  git add .
+   15  git commit -m "First commit"
+   16  git remote add origin https://github.com/dirval/SP_LAB4.git
+   17  git remote -v
+   18  git push origin master
+   19  man git
+   20  git branch b1
+   21  git branch 
+   22  checkout branch b1
+   23  git checkout branch b1
+   24  git branch
+   25  touch CatLonger
+   26  git add .
+   27  git commit -m "Add cat longer"
+   28  git push origin master
+   29  git branch
+   30  git checkout -b b1
+   31  git checkout b1
+   32  touch ears
+   33  dir
+   34  cat ShortCat 
+   35  git add .
+   36  git commit -m "Ears picture"
+   37  git push
+   38  git push origin master
+   39  dir
+   40  git checkout master
+   41  git merge b1 -m "merge"
+   42  dir
+   43  git branch -d b1
+   44  git branch
+   45  git push origin master
+   46  $histiry > cmd_git_log.log
+   47  $history > cmd_git_log.log
+   48  dir
+   49  $history >cmd_git_log.log
+   50  cat cmd_git_log.log 
+   51  history > mylog.log
