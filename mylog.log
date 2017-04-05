@@ -1,0 +1,24 @@
+    1  touch ShortCat
+    2  git add .
+    3  git commit -m "start again"
+    4  git push origin master
+    5  git branch b1
+    6  touch cat
+    7  git add .
+    8  git commit -m "long cat"
+    9  git checkout b1
+   10  touch cat
+   11  git add .
+   12  git commit -m "ears"
+   13  git checkout master
+   14  git merge b1
+   15  cat cat 
+   16  git merge b1 -m "merge"
+   17  dir
+   18  history
+   19  git add .
+   20  git commit -m "cat longer and ears"
+   21  git branch -D b1
+   22  git puch origin master
+   23  git push origin master
+   24  history > mylog.log
