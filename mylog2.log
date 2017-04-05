@@ -1,0 +1,17 @@
+    1  touch belt
+    2  git add .
+    3  git commit -m "belt master"
+    4  git branch b2
+    5  git checkout b2 
+    6  touch belt
+    7  dir
+    8  git add .
+    9  git commit -m "belt branch"
+   10  git checkout master
+   11  git merge b2 -m "merge"
+   12  cat belt 
+   13  git add .
+   14  git commit -m "cat belt"
+   15  git branch -D b2
+   16  git push origin master
+   17  history > mylog2.log
